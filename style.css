@@ -1,5 +1,6 @@
 body {
-  background: white;
+  background: #cfcec9;
+  color: #474747;
   font-family: monospace;
   font-size: 14px;
   height: 100%;
@@ -14,11 +15,10 @@ h1 {
 a {
   text-decoration: underline;
   text-underline-offset: 4px;
-  color: black;
 }
 
 a:hover {
-  color: gray;
+  color: #666666;
 }
 
 .content {
