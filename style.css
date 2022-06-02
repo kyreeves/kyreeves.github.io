@@ -1,0 +1,33 @@
+body {
+  background: white;
+  font-family: monospace;
+  font-size: 14px;
+  height: 100%;
+  width: 100%;
+}
+
+h1 {
+  font-size: 18px;
+  margin-bottom: -8px;
+}
+
+a {
+  text-decoration: underline;
+  text-underline-offset: 4px;
+  color: black;
+}
+
+a:hover {
+  color: gray;
+}
+
+.content {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 350px;
+  padding: 20px 0;
+  text-align: center;
+  border: 3px double black;
+}
